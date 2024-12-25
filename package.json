@@ -4,13 +4,18 @@
   },
   "name": "wanderlust",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A platform for booking vacation accommodations.",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "build": "react-scripts build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "wanderlust",
+    "booking",
+    "travel"
+  ],
+  "author": "Numan Ahamed",
   "license": "ISC",
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.16.1",
@@ -31,6 +36,19 @@
     "multer-storage-cloudinary": "^4.0.0",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^8.0.0"
+    "passport-local-mongoose": "^8.0.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
